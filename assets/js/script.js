@@ -90,7 +90,7 @@ var createTaskActions = function (taskId) {
   actionContainerEl.className = "task-actions";
 
   // create edit button
-  var editButtonEl = document.createElement("button");
+  var editButtonEl = document.createElement("button"); 
   editButtonEl.textContent = "Edit";
   editButtonEl.className = "btn edit-btn";
   editButtonEl.setAttribute("data-task-id", taskId);
